@@ -7,13 +7,14 @@ on:
         type: choice
         description: 'Build Variant'
         required: true
-        default: 'NormalOptimized'
+        default: 'GoldOptimized'
         options: 
         - NormalOptimized
         - NormalDebug
         - VROptimized
         - VRDebug
         - LegacyOptimized
+        - GoldOptimized
 
 jobs:
 
