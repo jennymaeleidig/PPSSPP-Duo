@@ -320,7 +320,7 @@ androidComponents {
 		val enabledVariants = setOf(
 			"duoDebug", "duoOptimized", "duoRelease",
 			"normalDebug", "normalOptimized", "normalRelease",
-			"goldDebug", "goldRelease",
+			"goldDebug", "goldRelease", "goldOptimized",
 			"vrDebug", "vrOptimized", "vrRelease",
 			"legacyDebug", "legacyOptimized", "legacyRelease"
 		)
