@@ -242,7 +242,7 @@ android {
 				}
 			}
 			ndk {
-				abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a", "x86_64"))
+				abiFilters.addAll(listOf("arm64-v8a"))
 				// debugSymbolLevel = "FULL"  // These don't actually help much in the Google Play crash report. We do still have symbols locally.
 			}
 		}
